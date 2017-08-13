@@ -91,6 +91,10 @@ export interface NativeGeocoderReverseResult {
    * The country code.
    */
   countryCode: string;
+  /**
+     * The Locality
+     */
+    locality:String;
 }
 /**
  * Encapsulates format information about a forward geocoding result.
